@@ -1,0 +1,147 @@
+@import "../../bower_components/foundation-sites/assets/foundation.scss";
+
+/* style.scss */
+@import "animate.css";
+
+$Exo: "Exo", sans-serif;
+
+body, html {
+  height: 100%;
+}
+
+h1, h2, h3, p, a, li {
+  font-family: $Exo;
+}
+
+.cover {
+  background-image: url("../img/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  .row {
+    padding-top: 16%;
+
+    h1 {
+      font-size: 3.75rem;
+      color: #282828;
+      font-weight: 100;
+    }
+
+    img {
+      margin-top: 20px;
+    }
+
+    .fake-button {
+      cursor: pointer;
+    }
+  }
+}
+
+.browser {
+  padding-top: 105px;
+  background-color: #f6f5f3;
+
+  h6 {
+    color: #ff6d6d;
+    font-weight: 500;
+  }
+
+  h2 {
+    margin: 10px 0 35px 0;
+    font-weight: 400;
+  }
+
+  p {
+    font-weight: 500;
+    color: #6e6e6d;
+  }
+}
+
+.sign-up {
+  padding: 125px 0;
+  background-color: #323969;
+  z-index: 1;
+  position: relative;
+
+  h1 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-weight: 500;
+  }
+
+  a {
+    color: #f6f5f3;
+    font-weight: 400;
+  }
+}
+
+.row-register {
+  margin: 55px 0;
+
+  .input, .alert {
+    height: 50px;
+    margin: 0;
+    border-radius: 2px;
+    color: #f6f5f3;
+    font-weight: 400;
+  }
+
+  .input {
+    background-color: #464c77;
+    border: 0;
+    padding: 0.5rem 1.75rem;
+  }
+
+  .alert {
+    background-color: #ff6d6d;
+    font-size: 1rem;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+.footer {
+  padding: 95px 0 80px 0;
+  background-color: #232323;
+  z-index: 1;
+  position: relative;
+
+  ul {
+    line-height: 1.875rem;
+
+    li > a {
+      color: #ababab;
+      font-weight: 400;
+      font-size: 0.875rem;
+    }
+  }
+
+  .li-header {
+    color: #ababab;
+    font-size: 1.375rem;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .row-register {
+    .input {
+      margin-bottom: 20px;
+    }
+  }
+
+  .footer {
+    .float-left, .float-right {
+      float: none !important;
+    }
+
+    .columns {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "landing-page",
+  "description": "landing-page",
+  "main": "index.html",
+  "authors": [
+    "Rain Arro"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.3.1",
+    "wow": "wowjs#^1.1.2"
+  }
+}
